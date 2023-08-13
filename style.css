@@ -1,0 +1,47 @@
+*, *::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 
+} 
+
+body{
+    width: 1448px;
+    height: 2247px;
+    background: #FAFAFA;
+    font-family: 'Helvetica Neue';
+}
+.navbar{
+    display:flex;
+    position: relative;
+}
+
+.d-flex.container{
+    width: 216px;
+    height: 29px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid var(--instagramlightgrey, #DBDBDB);
+    background: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+::placeholder{
+    color: var(--instagramgrey, #8F8F8F);
+    text-align: center;
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.icon-search{
+    fill: var(--instagramgrey, #8F8F8F);
+    
+}
+
+.d-flex{
+    background: var(--instagramlightgrey, #DBDBDB);
+}
