@@ -4,44 +4,85 @@
     padding: 0;
     box-sizing: border-box 
 } 
+:root{
+    font-size: 16px;
+    font-family: 'Helvetica Neue';
+}
+
 
 body{
     width: 1448px;
     height: 2247px;
     background: #FAFAFA;
-    font-family: 'Helvetica Neue';
+    
 }
 .navbar{
     display:flex;
     position: relative;
-}
 
-.d-flex.container{
+}
+.logo-icon{
+    position: absolute;
+    top:13px;
+    left: 263px;
+}
+.d-flex{
     width: 216px;
     height: 29px;
-    flex-shrink: 0;
     border-radius: 3px;
-    border: 1px solid var(--instagramlightgrey, #DBDBDB);
     background: #FAFAFA;
-    margin: 0;
-    padding: 0;
-    
-   
+    position: absolute;
+    top:9px;
+    left: 618px;
+    margin-right: 173px;
 }
 ::placeholder{
     color: var(--instagramgrey, #8F8F8F);
     text-align: center;
     font-family: inherit;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 .icon-search{
-    fill: var(--instagramgrey, #8F8F8F);
-    
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+.icon1{
+    position: absolute;
+    top: 13px;
+    left: 1007px;
+}
+.icon2{
+    position: absolute;
+    top: 15px;
+    left: 1052px;
+    z-index:0;
+}
+.icon3{
+    position: absolute;
+    top: 13px;
+    left: 1096px;
+}
+.icon4{
+    position: absolute;
+    top: 14px;
+    left: 1140px;
+}
+.icon5{
+    position: absolute;
+    top: 13px;
+    left: 1176px;
+}
+.icon6{
+    border:none;
+    color: rgba(255, 255, 255, 1);
+    background-color:#DC565B;
+    position: absolute;
+    top: 7px;
+    left: 1064px;
+    z-index:100;
 }
 
-.d-flex{
-    background: var(--instagramlightgrey, #DBDBDB);
-}
