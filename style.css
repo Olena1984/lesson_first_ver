@@ -7,17 +7,149 @@
 :root{
     font-size: 16px;
     font-family: 'Helvetica Neue';
-}
-
-
-body{
-    width: 1448px;
-    height: 2247px;
-    background: #FAFAFA;
     
 }
+body{
+    background: #FAFAFA;
+    margin: 0 auto;
+}
+
+::placeholder{
+    width: 15.42rem;
+    height: 1.185rem;
+    
+    font-family: 'Helvetica Neue';
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    
+    position: absolute;
+    top:0.38rem;
+    left: 5.56rem;
+   
+    
+    border-radius: 3px;
+    border: 1px;
+}
+.form-control{
+    padding:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+img{
+    position: absolute;
+    top:0.69rem;
+    left: 4.5rem;
+}
+.bi-5-circle-fill{
+    fill: #DC565B;
+    background:  #FAFAFA; 
+}
+.border-bottom{
+    width: 91.1875rem;
+    height: 1px;
+    color: #DBDBDB;  
+}
+.CircleBig{
+    fill:rgba(0, 0, 0, 0.8);
+    
+}
+
+.UserName {
+    width: 4.25rem;
+    height: 2.0625rem;
+
+
+    font-family: 'Helvetica Neue';
+    font-size: 4.33rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.Follow{
+    Width:6.0625rem;
+    Height:1.8125rem;
+    background-color: rgba(64, 148, 239, 1);
+    border-radius:3px;
+    font-family: 'Helvetica Neue';
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.0625rem;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.Submit{
+   
+    width: 2.0625rem;
+    height: 1.8125rem;
+    border-radius: 3px;
+    background-color: rgba(64, 148, 239, 1);
+    text-align: center;
+}
+.Posts{
+    width: 4.1875rem;
+    height: 1.3125rem;
+    font-family: Helvetica Neue;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Helvetica Neue;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.followers,
+.following {
+    Width:103px;
+    Height:21px;
+    font-family: 'Helvetica Neue';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: 'Helvetica Neue';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Userinfo{
+    width: 531px;
+    height: 51px;
+    font-family: Helvetica Neue;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.link{
+    width: 121px;
+    height: 21px;
+    font-family: Helvetica Neue;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/*
 .navbar{
-    display:flex;
+    
     position: relative;
 
 }
@@ -50,39 +182,10 @@ body{
     top: 0px;
     left: 65px;
 }
-.icon1{
-    position: absolute;
-    top: 13px;
-    left: 1007px;
-}
-.icon2{
-    position: absolute;
-    top: 15px;
-    left: 1052px;
-    z-index:0;
-}
-.icon3{
-    position: absolute;
-    top: 13px;
-    left: 1096px;
-}
-.icon4{
-    position: absolute;
-    top: 14px;
-    left: 1140px;
-}
-.icon5{
-    position: absolute;
-    top: 13px;
-    left: 1176px;
-}
-.icon6{
-    border:none;
-    color: rgba(255, 255, 255, 1);
-    background-color:#DC565B;
-    position: absolute;
-    top: 7px;
-    left: 1064px;
-    z-index:100;
+.nav{
+ display: flex;
+ 
 }
 
+
+*/
