@@ -7,16 +7,14 @@
 :root{
     font-size: 16px;
     font-family: 'Helvetica Neue';
-<<<<<<< HEAD
-=======
-}
 
+}
 
 body{
     
     background: #FAFAFA;
->>>>>>> 739c5ea32bd5c131fb657f4c6093631250451b9a
-    
+
+
 }
 body{
     background: #FAFAFA;
@@ -199,47 +197,5 @@ img{
 
 
 */
-=======
-    display: flex;
-    
-   }
-   .icon1{
-       position: absolute;
-       top: 13px;
-       left: 1007px;
-   }
-   .icon2{
+
    
-       position: absolute;
-       top: 15px;
-       left: 1052px;
-      z-index:0;
-      
-   }
-   .icon3{
-       position: absolute;
-       top: 13px;
-       left: 1096px;
-   }
-   .icon4{
-       position: absolute;
-       top: 14px;
-       left: 1140px;
-   }
-   .icon5{
-       position: absolute;
-       top: 13px;
-       left: 1176px;
-   }
-   .icon6{
-       position: absolute;
-       top: 7px;
-       left: 1064px;
-    
-   }
-   .bi-5-circle-fill{
-       fill: #DC565B;
-       background: #FAFAFA;
-       border-radius: 1px solid #000000;
-   }
->>>>>>> 739c5ea32bd5c131fb657f4c6093631250451b9a
